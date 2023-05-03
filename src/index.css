@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p {
+  font-size: medium;
+  text-align: center;
+}
+
+li {
+  font-size: small;
+  text-align: center;
+  color: rgb(69, 161, 197)
+}
+
+a {
+  font-size: medium;
+}

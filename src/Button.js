@@ -21,21 +21,21 @@ function Button(props) {
 
         idx++
 
-        if (idx == 4){
-            idx=0
+        if (idx >= 4){
+            idx = 0
         }
 
-      console.log(RandomMessage[idx])
+      console.log(RandomMessage[idx] + " " + props.ButtonText)
     }
 
     return (
       <>
         <button className = "testButton" 
-        onClick={WhenButtonIsPressed}>Click Here{props.ButtonText}
+        onClick={WhenButtonIsPressed}>Click here
+          {props.ButtonText}
         </button>
-
       </>
     );
   }
   
-export default Button
+export default Button;

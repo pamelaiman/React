@@ -1,13 +1,17 @@
 import logo from './logo.svg';
+import Button from './Button.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Welcome to Pamela's React App.</h1>
+        <p>Please press the button below.</p>
+        <Button />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Pamela's <code>App</code> is running.
         </p>
         <a
           className="App-link"

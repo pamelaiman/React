@@ -25,7 +25,7 @@ function Button(props) {
             idx = 0
         }
 
-      console.log(RandomMessage[idx] + " " + props.ButtonText)
+      alert(RandomMessage[idx] + " " + props.ButtonText)
     }
 
     return (

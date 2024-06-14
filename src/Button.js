@@ -1,13 +1,5 @@
 import './Button.css';
 
-// function Button() {
-//     return (
-//     <button className="testButton">Click me!!!</button>
-//     )
-//  }
-
-// const Button = () => <button className="testButton">Click here</button>
-
 function Button(props) {
     let idx = 0;
     console.log(props)
@@ -25,7 +17,7 @@ function Button(props) {
             idx = 0
         }
 
-      alert(RandomMessage[idx] + " " + props.ButtonText)
+      alert(RandomMessage[idx])
     }
 
     return (
